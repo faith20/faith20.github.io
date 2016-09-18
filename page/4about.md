@@ -8,15 +8,13 @@ icon: heart
 * content
 {:toc}
 
-## About Me
-
-About Me.
+## About Fire4Studio
 
 ![404]({{ site.baseurl }}/images/f4logo3.png)
 
-예전 유행했던 "죽지 않아!" 라는 구호로 부터 불사 >> Fire4 라는 이름이 처음 만들어졌고
-여기에서 다시 Fire 4 Game >> Fire For Game >>Passion For Game
-게임을 향한 열정! 이라는 의미를 스스로 부여하였습니다.
+* 예전 유행했던 "죽지 않아!" 라는 구호로 부터 불사 >> Fire4 라는 이름이 처음 만들어졌고
+* 여기에서 다시 Fire 4 Game >> Fire For Game >> Passion For Game
+* 게임을 향한 열정! 이라는 의미를 스스로 부여하였습니다.
 
 ## Contact
 
