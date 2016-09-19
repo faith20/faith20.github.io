@@ -10,11 +10,11 @@ icon: heart
 
 ## Fire4Studio
 
-![404]({{ site.baseurl }}/images/f4logo3.png)
+![404]({{ site.baseurl }}/images/f4logo3.jpg)
 
-* Fire4!
-* Fire For!
-* Passion For!
+* Fire4 !
+* Fire For !!
+* Passion For !!!
 
 ## Contact
 
@@ -34,6 +34,8 @@ icon: heart
 * `[+]` Create Blog.
 
 ## Link
+
+* _그런거 없습니다...._
 
 ## Comments
 
