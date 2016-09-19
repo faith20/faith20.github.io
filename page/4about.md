@@ -12,9 +12,9 @@ icon: heart
 
 ![404]({{ site.baseurl }}/images/f4logo3.jpg)
 
-* Fire4 !
+* Fire4 !!
 * Fire For !!
-* Passion For !!!
+* Passion For !!!!
 
 ## Contact
 
