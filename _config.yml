@@ -11,6 +11,8 @@ brief-intro: Game Dev Studio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.fire4studio.com" # the base hostname & protocol for your site
 
+future: true
+
 permalink: /:year/:month/:day/:title/
 timezone: Asia/Seoul
 
