@@ -10,7 +10,7 @@ icon: heart
 
 ## Fire4Studio
 
-![404]({{ site.baseurl }}/images/f4logo3.jpg)
+![Logo]({{ site.baseurl }}/images/f4logo3.png)
 
 * Fire4 !!
 * Fire For !!
