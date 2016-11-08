@@ -45,13 +45,14 @@ button {
 }
 hr {
     border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
 }
 
 ///////////
 h1 {
     font-size: 36px;
+    font-weight: bold;
 }
 h2 {
     font-size: 30px;
@@ -74,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 20px 0 10px;
+    margin: 0px 0 0px;
 }
 blockquote {
     color: #444;

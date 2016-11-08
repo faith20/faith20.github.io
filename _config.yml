@@ -7,7 +7,7 @@
 
 # Site settings
 title: Fire4Studio
-brief-intro: Game Dev Studio
+brief-intro: Game Development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.fire4studio.com" # the base hostname & protocol for your site
 

@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>Welcome to Fire4Studio Blog!</h1>
-        <small>Fire 4 games!</small>
+        <h1>Posts</h1>
+        <!-- <small>Fire 4 games!</small> -->
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -13,6 +13,9 @@ layout: default
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
+                 <div class="excerpt">
+                    {{post.excerpt}}
+                </div>
                 <div class="label">
                     <div class="label-card">
                         <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
@@ -32,12 +35,10 @@ layout: default
                     <div class="label-card">
                     {% include tag.html %}
                     </div>
-                </div>
-                <div class="excerpt">
-                    {{post.excerpt}}
-                </div>
-                <div class="read-all">
+
+                    <div class="read-all">
                     <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
+                    </div>
                 </div>
                 <hr>
               </li>
