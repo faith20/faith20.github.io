@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "webpack-dev-server hot reload"
+title: "webpack-dev-server watch"
 categories: JavaScript
 tags: Web Dev
 ---
