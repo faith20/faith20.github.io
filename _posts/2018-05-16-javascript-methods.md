@@ -35,7 +35,7 @@ for(const item of toolBox) {
 // Screwdriver
 // Ruler
 ```
-* for...in 의 경우는 key 값
+* for...in 의 경우는 key 값을 가져오지만 순서가 보장되지 않고, 엉뚱한 property 를 가져올 수 있기 때문에 hasOwnProperty 와 함께 사용
 
 ## 3. includes()
 ```js
@@ -86,6 +86,6 @@ weeklyExpenses.reduce((first, last) => first + last);
 ```
 * 배열 값으로 계산할 때 활용
 
-
+<br>
 `출처`
 [https://medium.freecodecamp.org/7-javascript-methods-that-will-boost-your-skills-in-less-than-8-minutes-4cc4c3dca03f](https://medium.freecodecamp.org/7-javascript-methods-that-will-boost-your-skills-in-less-than-8-minutes-4cc4c3dca03f)
