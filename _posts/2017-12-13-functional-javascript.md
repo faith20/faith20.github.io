@@ -29,6 +29,7 @@ console.log(kittens);
 1. if 구문을 function 으로 변경
 2. cat Object 에서 name 을 가져오는 function 생성
 3. filter 와 map 을 이용하여 새로운 배열 생성
+
 ```js
 const isKitten = cat => cat.months < 7;
 const getName = cat => cat.name;
@@ -40,12 +41,10 @@ const kittens =
 ## 2. Objects 의 method 추출하기. map, filter and reduce
 ```js
 const map = f => x => Array.prototype.map.call(x, f);
-
 const value = 'Kitty Cat';
 
 value.map(doSomething);
 // => Uncaught TypeError: items.map is not a function
-
 map(doSomething)(value);
 // => ['K', 'i', 't', 't', 'y', ' ', 'C', 'a', 't']
 ```
