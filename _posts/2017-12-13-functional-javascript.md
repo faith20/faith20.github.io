@@ -12,8 +12,8 @@ published: true
 ##  Functional JavaScript
 1. No more for loop
 2. Objects 의 method 추출하기. map, filter and reduce
- 
- 
+
+
 
 ## 1. No more for loop
 ```js
