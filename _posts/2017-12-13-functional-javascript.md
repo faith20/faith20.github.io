@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Functional JavaScript"
+title: Functional JavaScript
 categories: JavaScript
 tags: Web Dev
+published: true
 ---
 
 * content
 {:toc}
+
+##  Functional JavaScript
+1. No more for loop
+2. Objects 의 method 추출하기. map, filter and reduce
+ 
+ 
 
 ## 1. No more for loop
 ```js
