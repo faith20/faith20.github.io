@@ -9,9 +9,8 @@ published: true
 * content
 {:toc}
 
-##  Functional JavaScript
-1. No more for loop
-2. Objects 의 method 추출하기. map, filter and reduce
+- No more for loop
+- Objects 의 method 추출하기. map, filter and reduce
 
 
 
