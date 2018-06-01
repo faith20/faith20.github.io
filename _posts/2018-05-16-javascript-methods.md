@@ -10,13 +10,14 @@ published: true
 {:toc}
 
 ## 전통적인 for-loop 에서 벗어나기
-```js
-for(var i; i < value.length; i++)
-```
 js코딩을 하다보면 자꾸만 c에서 하던 for-loop 를 똑같이 사용하게 되는데  
 깔끔한 코드와 조금이라도 성능 향상을 노려보기 위해 새로운 방법들을 익혀야 할 필요가 있습니다.
 
 
+
+```js
+for(var i; i < value.length; i++)
+```
 
 ## 1. Spread operator
 ```js
