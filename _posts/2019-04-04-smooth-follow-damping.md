@@ -33,29 +33,41 @@ a = Mathf.Lerp( a, b, r * Time.deltaTime );
 
 ## 3. 간단한 수식화
 문제를 단순화 해서 a 를 0 으로 옮기는 방법을 생각해봅시다.  
-a 의 초기 값을 10 이라 하고 반씩 줄여나간다고 가정을 합니다.
-```c#
-a(0) = 10
-a(1) = 5
-a(2) = 2.5
-a(3) = 1.25
-```
+a 의 초기 값을 10 이라 하고 반씩 줄여나간다고 가정을 합니다.  
+
+$$
+\begin{align}
+a(0) & = 10 \\
+a(1) & = 5 \\
+a(2) & = 2.5 \\
+a(3) & = 1.25 \\
+\end{align}
+$$
+
 그래프로 보면 a 값이 점차 0 에 수렴해 가는 것을 알 수 있습니다.
 ![Graph1]({{ site.baseurl }}/images/damping/image-1.png)  
 이 것을 다시 수식으로 적어보면
-```c#
-a(t + 1) = a(t)/2
-```
+
+$$
+a(t + 1) = \frac{a(t)}{2}
+$$
+
 절반이 아니라 범위가 0 ~ 1 인 r 의 비율을 사용한다고 하면
-```c#
-a(t + 1) = a(t)r
-a(t + 2) = a(t + 1)r = a(t)r^2
-a(t + 3) = a(t + 2)r = a(t)r^3
-```
+
+$$
+\begin{align}
+a(t + 1) & = a(t)r \\
+a(t + 2) & = a(t + 1)r = a(t)r^2 \\
+a(t + 3) & = a(t + 2)r = a(t)r^3 \\
+\end{align}
+$$
+
 결국 다음과 같은 수식을 만들 수 있습니다.
-```c#
+
+$$
 a(t + n) = a(t)r^n
-```
+$$
+
 이 수식을 코드로 만들어 보면 아래와 같습니다.
 ```c#
 // Smoothing rate dictates the proportion of source remaining after one second
@@ -81,11 +93,16 @@ private void FixedUpdate()
 ## 4. 타겟을 적용해보자
 위에서는 b 를 0 으로 가정했고 a 가 실제 b 에 수렴하도록 하려면 그래프를 y 축으로 b 만큼 이동시켜 주면 됩니다.
 ![Graph2]({{ site.baseurl }}/images/damping/image-2.png)
-```c#
-a(t + n) - b = (a(t) - b)r^n
-a(t + n) = b + (a(t) - b)r^n
-a(t + n) = b(1 - r^n) + a(t)r^n
-```
+
+$$
+\begin{align}
+a(t + n) - b & = (a(t) - b)r^n \\
+a(t + n) & = b + (a(t) - b)r^n \\
+a(t + n) & = b - br^n + a(t)r^n \\
+a(t + n) & = b(1 - r^n) + a(t)r^n \\
+\end{align}
+$$
+
 이 수식은 처음에 사용하려고 했던 lerp 와 같습니다.
 ```c#
 a(t + n) = Lerp(b, a(t), Pow(r, n))
@@ -114,13 +131,18 @@ smoothing 값은 0 ~ 1 사이만 허용됩니다.
 ## 5. Exponential Decay
 위의 그래프를 다시한번 살펴보면 exponential decay (지수적 감쇠?) 함수인 것을 알 수가 있는데  
 b 를 0 으로 가정했을 때의 수식으로 생각해보면
-```c#
-a(t + n) = a(t)r^n = a(t)e^-ln
-r^n = e^-ln
-r^n = (e^-l)^n
-r = e^-l
-l = -ln(r)
-```
+
+$$
+\begin{align}
+a(t + n) & = a(t)r^n \\
+a(t + n) & = a(t)e^{-\lambda n} \\
+r^n & = e^{-\lambda n} \\
+r^n & = (e^{-\lambda})^n \\
+r & = e^{-\lambda} \\
+\lambda & = -\ln(r) \\
+\end{align}
+$$
+
 따라서 아래와 같은 코드로 변형 할 수 있습니다.
 ```c#
 public static float Damp(float a, float b, float lambda, float dt)
@@ -131,6 +153,7 @@ public static float Damp(float a, float b, float lambda, float dt)
 조정할 수 있는 변수가 위의 smoothing 에서 lambda 로 바뀐 것 뿐인 듯 하지만  
 smoothing 은 0 ~ 1 사이의 값만 가능하고 lambda 는 0 ~ 무한대의 값이 가능하기때문에  
 사용이 편리한 장점이 있습니다.  
+
 두가지 코드를 그래프로 확인해보면 동일한 결과를 볼 수 있습니다.
 ![Logo]({{ site.baseurl }}/images/damping/image-5.png)  
 
