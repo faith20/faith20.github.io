@@ -8,6 +8,7 @@ icon: heart
 * content
 {:toc}
 
+<!--
 ## Fire4Studio
 
 ![Logo]({{ site.baseurl }}/images/f4logo3.png)
@@ -15,7 +16,7 @@ icon: heart
 * Fire4 !!
 * Fire For !!
 * Passion For !!!!
-
+-->
 ## Contact
 
 * [GitHub](https://github.com/faith20)

@@ -1,4 +1,4 @@
-# Fire4Studio Blog
+# rainbowmaker Blog
 
 Using Jekyll Blog Theme - [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)
 
