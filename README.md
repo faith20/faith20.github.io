@@ -1,6 +1,6 @@
 # rainbowmaker Blog
 
-Using Jekyll Blog Theme - [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)
+Using Jekyll Blog Theme - [https://mmistakes.github.io/minimal-mistakes/](https://mmistakes.github.io/minimal-mistakes/)
 
 ## License
 
