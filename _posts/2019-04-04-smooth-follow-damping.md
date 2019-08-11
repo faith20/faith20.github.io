@@ -45,7 +45,7 @@ a(3) & = 1.25 \\
 $$
 
 그래프로 보면 a 값이 점차 0 에 수렴해 가는 것을 알 수 있습니다.
-![Graph1]({{ site.baseurl }}/images/damping/image-1.png)  
+![Graph1]({{ site.baseurl }}/assets/images/damping/image-1.png)  
 이 것을 다시 수식으로 적어보면
 
 $$
@@ -92,7 +92,7 @@ private void FixedUpdate()
 
 ## 4. 타겟을 적용해보자
 위에서는 b 를 0 으로 가정했고 a 가 실제 b 에 수렴하도록 하려면 그래프를 y 축으로 b 만큼 이동시켜 주면 됩니다.
-![Graph2]({{ site.baseurl }}/images/damping/image-2.png)
+![Graph2]({{ site.baseurl }}/assets/images/damping/image-2.png)
 
 $$
 \begin{align}
@@ -155,7 +155,7 @@ smoothing 은 0 ~ 1 사이의 값만 가능하고 lambda 는 0 ~ 무한대의 �
 사용이 편리한 장점이 있습니다.  
 
 두가지 코드를 그래프로 확인해보면 동일한 결과를 볼 수 있습니다.
-![Logo]({{ site.baseurl }}/images/damping/image-5.png)  
+![Logo]({{ site.baseurl }}/assets/images/damping/image-5.png)  
 
 ## Conclusion
 결국 필요한 것은 마지막 한줄의 코드이지만  
