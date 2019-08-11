@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Blog Updated"
 categories: Blog
 tags: Blog

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Functional JavaScript
 categories: JavaScript
 tags: Web Dev

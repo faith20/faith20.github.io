@@ -1,5 +1,4 @@
 ---
-layout: post
 title: JavaScript Methods
 categories: JavaScript
 tags: Web Dev

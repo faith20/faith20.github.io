@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Javascript"
 categories: Javascript
 tags: Web Dev
