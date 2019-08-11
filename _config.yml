@@ -37,13 +37,13 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 comments:
   provider: "disqus"
   disqus:
-    shortname: "rainbowmaker"
+    shortname: rainbowmaker
 
 # Analytics
 analytics:
   provider: "google"
   google:
-    tracking_id: "UA-45284959-1"
+    tracking_id: UA-45284959-1
     anonymize_ip: # true, false (default)
 
 include:
