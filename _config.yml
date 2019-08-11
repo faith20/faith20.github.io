@@ -25,13 +25,13 @@ github_username: faith20
 minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 comments:
-  provider: disqus
+  provider: "disqus"
   disqus:
-    shortname: rainbowmaker
+    shortname: "rainbowmaker"
 
 # Analytics
 analytics:
-  provider: google
+  provider: "google"
   google:
     tracking_id: UA-45284959-1
     anonymize_ip: # true, false (default)
@@ -85,7 +85,7 @@ author:
       # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/faith20"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
