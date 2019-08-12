@@ -5,16 +5,11 @@ tags: Game Dev
 published: true
 ---
 
-excerpt test 20202020
-
-<!-- * content
-{:toc} -->
-
-## Smooth Follow Damping
 Unity3D 로 작업하던 시기에 항상 혼동이 오는 문제 중의 하나가 Smooth Damping 이었습니다.  
 나름 잘 설명된 블로그가 있어서 나중을 위해 정리해 보려고 합니다.
 
-
+* content
+{:toc}
 
 ## 1. Smooth Damping 이란?
 현재 값 a 가 있고 타겟 값인 b 로 부드럽게 이동시키는 것이 목표인 문제 입니다.  
