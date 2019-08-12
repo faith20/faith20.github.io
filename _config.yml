@@ -58,5 +58,5 @@ ga: UA-45284959-1
 # turn it off for a particular post -> add `comment: false` to post front matter
 disqus: rainbowmaker
 
-markdown: kramdown
-highlighter: rouge
+# markdown: kramdown
+# highlighter: rouge
