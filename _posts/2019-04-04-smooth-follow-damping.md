@@ -5,8 +5,8 @@ tags: Game Dev
 published: true
 ---
 
-* content
-{:toc}
+<!-- * content
+{:toc} -->
 
 ## Smooth Follow Damping
 Unity3D 로 작업하던 시기에 항상 혼동이 오는 문제 중의 하나가 Smooth Damping 이었습니다.  
