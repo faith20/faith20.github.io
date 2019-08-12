@@ -10,10 +10,10 @@ remote_theme: kkninjae/book
 title: rainbowmaker
 
 # site favicon, absolute path required
-favicon: /assets/img/favicon.ico
+favicon: favicon.ico # /assets/img/favicon.ico
 
 # home button image, absolute path requried
-avatar: /assets/img/avatar.jpg
+avatar: /assets/images/bio-photo.jpg # /assets/img/avatar.jpg
 # specify meaningful description for your avatar
 avatarInfo: "Tokyo tower"
 
