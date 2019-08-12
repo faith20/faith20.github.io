@@ -8,7 +8,6 @@ published: true
 - No more for loop
 - Objects 의 method 추출하기. map, filter and reduce
 
-
 * content
 {:toc}
 
