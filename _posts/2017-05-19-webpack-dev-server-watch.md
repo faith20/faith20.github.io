@@ -4,20 +4,18 @@ categories: JavaScript
 tags: Web Dev
 ---
 
+작업하던 코드를 TypeScript로 변환 하면서  
+Gulp를 쓰지 않고 Webpack Plugin만 사용하는 것으로 구조를 변경했습니다.
+
 * content
 {:toc}
 
 ## `TypeScript` & `Webpack`
 
-작업하던 코드를 TypeScript로 변환 하면서  
-Gulp를 쓰지 않고 Webpack Plugin만 사용하는 것으로 구조를 변경했습니다.
-
-
-
-그런데 webpack-dev-server를 띄워보니 
+그런데 webpack-dev-server를 띄워보니
 코드 수정한게 자동으로 반영되지 않는 문제가 발생하네요.
 
-분명 설명에는 webpack-dev-server가 webpack watch 모드로 동작한다고 본 것 같은데  
+분명 설명에는 webpack-dev-server가 webpack watch 모드로 동작한다고 본 것 같은데
 메모리에만 존재하고 실제 파일로는 저장되지 않기때문인가 싶어 이것저것 바꿔봐도 안되더군요.
 
 그러다가 [`Document`](https://webpack.github.io/docs/webpack-dev-server.html)의 댓글을 늦게 발견하고 해결했습니다.

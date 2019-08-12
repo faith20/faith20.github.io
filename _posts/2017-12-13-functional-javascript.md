@@ -5,13 +5,12 @@ tags: Web Dev
 published: true
 ---
 
-* content
-{:toc}
-
 - No more for loop
 - Objects 의 method 추출하기. map, filter and reduce
 
 
+* content
+{:toc}
 
 ## 1. No more for loop
 ```js
