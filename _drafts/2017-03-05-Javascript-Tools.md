@@ -1,19 +1,16 @@
 ---
 layout: post
-title: "Javascript Tools"
-categories: Javascript
+title: 'JavaScript Tools'
+categories: JavaScript
 tags: Web Dev
 ---
 
-* content
-{:toc}
+- content
+  {:toc}
 
-### Javascript Tools
+### JavaScript Tools
 
 https://dev.to/kayis/the-tools-of-the-js-trade
-
-
-
 
 Why Tools?
 They are created to make our life easier. But at the cost, that we need to understand how they work.
