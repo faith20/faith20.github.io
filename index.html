@@ -19,6 +19,7 @@ title: Home
           {{ post.description}}
           {% elsif post.excerpt %}
           {{ post.excerpt }}
+          {% else %}
           {% endif %} 
           <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read this article </a>
         </p> 
