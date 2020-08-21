@@ -15,13 +15,11 @@ title: Home
       </header>
       <div class="post_excerpt">
         <p>
-          {% if post.description %}
+          <!-- {% if post.description %}
           {{ post.description}}
-          <!-- {% elsif post.excerpt %}
-          {{ post.excerpt }} -->
           {% else %}
-          Read this article
-          {% endif %} 
+          {{ post.excerpt }}
+          {% endif %}  -->
           <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data> </a>
         </p> 
       </div>
