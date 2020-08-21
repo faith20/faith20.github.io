@@ -20,8 +20,9 @@ title: Home
           {% elsif post.excerpt %}
           {{ post.excerpt }}
           {% else %}
+          {{ post.title }}
           {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read this article </a>
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data></a>
         </p> 
       </div>
       <footer class="post_meta">
