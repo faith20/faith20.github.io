@@ -1,6 +1,6 @@
 # rainbowmaker Blog
 
-Using Jekyll Blog Theme - [https://mmistakes.github.io/minimal-mistakes/](https://mmistakes.github.io/minimal-mistakes/)
+Using Jekyll Blog Theme - [https://github.com/wild-flame/jekyll-simple](https://github.com/wild-flame/jekyll-simple)
 
 ## License
 

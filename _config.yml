@@ -1,62 +1,41 @@
-# basic
-# ============================================================================
-# if your site is serving on https://xxx.github.io, set `baseurl: /`
-# if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
-baseurl: /
+remote_theme: wild-flame/jekyll-simple
 
-remote_theme: kkninjae/book
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# site title
-title: rainbowmaker
+# Site settings
+title: rainbowmaker blog
+email: faith20@rainbowmaker.co.kr
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'https://blog.rainbowmaker.co.kr' # the base hostname & protocol for your site
+twitter_username:
+github_username: faith20
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics:
+disqus_shortname: rainbowmaker
+
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->
 
 # site favicon, absolute path required
-favicon: favicon.ico # /assets/img/favicon.ico
-
-# home button image, absolute path requried
-avatar: /assets/images/bio-photo.jpg # /assets/img/avatar.jpg
-# specify meaningful description for your avatar
-avatarInfo: "Tokyo tower"
-
-# default variables for post-type page
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comment: true
-
-
-# sass
-# ============================================================================
-sass:
-  sass_dir: _sass
-  style: compressed
-
-
-# exclude none site related files
-# ============================================================================
-exclude:
-  - README.md
-  - LICENSE
-  - github
-  - package.json
-  - package-lock.json
-  - node_modules
-
+favicon: /assets/img/favicon.ico
 
 # google analytics
 # ============================================================================
 # turn it off -> ga: false
 ga: UA-45284959-1
-
-
-# disqus
-# ============================================================================
-# turn it off for all posts -> disqus: false
-# turn it off for a particular post -> add `comment: false` to post front matter
-disqus: rainbowmaker
-
-# markdown: kramdown
-# highlighter: rouge
