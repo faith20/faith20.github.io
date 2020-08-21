@@ -39,3 +39,4 @@ favicon: /assets/img/favicon.ico
 # ============================================================================
 # turn it off -> ga: false
 ga: UA-45284959-1
+google_analytics: UA-45284959-1
