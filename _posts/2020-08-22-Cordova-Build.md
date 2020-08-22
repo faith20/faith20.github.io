@@ -390,6 +390,11 @@ FirebasePlugin.setAutoInitEnabled(false, function () {
   - because Cordova has increased the minimum SDK version to 22, we no longer support or test with Android 5.0 or lower.
 - cordova-android 8.1.0 사용
   - cordova-plugin-androidx-adapter 는 계속 사용
+- 2020.03 부터 Android Target SDK 29 필수
+  - Target SDK Version 28 → 29
+  - platforms\android\build.gradle
+  - platforms\android\project.properties
+  - platforms\android\CordovaLib\project.properties
 
 ### Sound
 
