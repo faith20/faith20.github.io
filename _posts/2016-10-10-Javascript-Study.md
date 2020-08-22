@@ -2,6 +2,7 @@
 title: 'JavaScript Study'
 categories: JavaScript
 tags: Web Dev
+excerpt:
 ---
 
 <!-- prettier-ignore -->

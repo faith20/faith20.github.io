@@ -2,6 +2,7 @@
 title: 'Blog Updated'
 categories: Blog
 tags: Blog
+excerpt:
 ---
 
 <!-- prettier-ignore -->

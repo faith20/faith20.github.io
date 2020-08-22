@@ -2,7 +2,7 @@
 title: Cordova Build Work Process With Svelte & Pixi.js
 categories: Game
 tags: Game Dev
-published: true
+excerpt:
 ---
 
 <!-- prettier-ignore -->

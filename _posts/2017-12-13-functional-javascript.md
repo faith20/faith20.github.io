@@ -2,7 +2,7 @@
 title: Functional JavaScript
 categories: JavaScript
 tags: Web Dev
-published: true
+excerpt:
 ---
 
 <!-- prettier-ignore -->

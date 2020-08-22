@@ -2,7 +2,7 @@
 title: Frame Rate Independent Damping Using Lerp
 categories: Game
 tags: Game Dev
-published: true
+excerpt:
 ---
 
 <!-- prettier-ignore -->

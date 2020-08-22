@@ -2,6 +2,7 @@
 title: 'webpack-dev-server watch'
 categories: JavaScript
 tags: Web Dev
+excerpt:
 ---
 
 <!-- prettier-ignore -->
