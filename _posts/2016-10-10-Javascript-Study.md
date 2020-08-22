@@ -10,8 +10,9 @@ tags: Web Dev
 개발을 하면서  
 Node.js 때문에 급하게 공부했던 자바스크립트를 한번 정리해 보려고 합니다.
 
-- content
-  {:toc}
+<!-- prettier-ignore -->
+* content
+{:toc}
 
 ### Node.js
 

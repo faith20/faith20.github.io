@@ -9,8 +9,9 @@ excerpt: Smooth Damping Math
 Unity3D 로 작업하던 시기에 항상 혼동이 오는 문제 중의 하나가 Smooth Damping 이었습니다.  
 나름 잘 설명된 블로그가 있어서 나중을 위해 정리해 보려고 합니다.
 
-- content
-  {:toc}
+<!-- prettier-ignore -->
+* content
+{:toc}
 
 ## 1. Smooth Damping 이란?
 

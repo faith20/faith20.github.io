@@ -8,13 +8,15 @@ published: true
 - No more for loop
 - Objects 의 method 추출하기. map, filter and reduce
 
+<!-- prettier-ignore -->
 * content
 {:toc}
 
 ## 1. No more for loop
+
 ```js
 const cats = [
-  { name: 'Mojo',    months: 84 },
+  { name: 'Mojo', months: 84 },
   { name: 'Mao-Mao', months: 34 },
   { name: 'Waffles', months: 4 },
   { name: 'Pickles', months: 6 }
@@ -29,21 +31,21 @@ for (var i = 0; i < cats.length; i++) {
 }
 console.log(kittens);
 ```
+
 1. if 구문을 function 으로 변경
 2. cat Object 에서 name 을 가져오는 function 생성
 3. filter 와 map 을 이용하여 새로운 배열 생성
 
 ```js
-const isKitten = cat => cat.months < 7;
-const getName = cat => cat.name;
-const kittens =
-  cats.filter(isKitten)
-      .map(getName);
+const isKitten = (cat) => cat.months < 7;
+const getName = (cat) => cat.name;
+const kittens = cats.filter(isKitten).map(getName);
 ```
 
 ## 2. Objects 의 method 추출하기. map, filter and reduce
+
 ```js
-const map = f => x => Array.prototype.map.call(x, f);
+const map = (f) => (x) => Array.prototype.map.call(x, f);
 const value = 'Kitty Cat';
 
 value.map(doSomething);

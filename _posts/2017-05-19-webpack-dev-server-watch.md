@@ -1,5 +1,5 @@
 ---
-title: "webpack-dev-server watch"
+title: 'webpack-dev-server watch'
 categories: JavaScript
 tags: Web Dev
 ---
@@ -7,10 +7,12 @@ tags: Web Dev
 작업하던 코드를 TypeScript로 변환 하면서  
 Gulp를 쓰지 않고 Webpack Plugin만 사용하는 것으로 구조를 변경했습니다.
 
+<!-- prettier-ignore -->
 * content
 {:toc}
 
 ## `TypeScript` & `Webpack`
+
 그런데 webpack-dev-server를 띄워보니
 코드 수정한게 자동으로 반영되지 않는 문제가 발생하네요.
 
@@ -20,32 +22,42 @@ Gulp를 쓰지 않고 Webpack Plugin만 사용하는 것으로 구조를 변경�
 그러다가 [`Document`](https://webpack.github.io/docs/webpack-dev-server.html)의 댓글을 늦게 발견하고 해결했습니다.
 
 ## `webpack.config.js`
-원문
->This was tough to track down, but I did.  
->Webpack is very picky about the values of the path and filename properties of the output config property.  
->My main .js file is public/build/bundle.js.  
->Hot reload did **not** work with 
->```js
->output: { path: __dirname, filename: 'public/build/bundle.js' }
->```
->It also did **not** work with 
->```js
->output: { path: __dirname + '/public/build', filename: 'bundle.js' }
->```
->However, it **DOES WORK** with 
->```js
->output: { path: __dirname + '/public', filename: 'build/bundle.js' }
->```
 
+원문
+
+> This was tough to track down, but I did.  
+> Webpack is very picky about the values of the path and filename properties of the output config property.  
+> My main .js file is public/build/bundle.js.  
+> Hot reload did **not** work with
+>
+> ```js
+> output: { path: __dirname, filename: 'public/build/bundle.js' }
+> ```
+>
+> It also did **not** work with
+>
+> ```js
+> output: { path: __dirname + '/public/build', filename: 'bundle.js' }
+> ```
+>
+> However, it **DOES WORK** with
+>
+> ```js
+> output: { path: __dirname + '/public', filename: 'build/bundle.js' }
+> ```
 
 참고로 제가 사용했던 설정은
+
 ```js
 output: { filename: "bundle.js", path: path.resolve(__dirname, "dist", "js") }
 ```
+
 였는데
+
 ```js
 output: { filename: "js/bundle.js", path: path.resolve(__dirname, "dist") }
 ```
+
 로 변경하니 바로 해결되었습니다.
 
 정확히는 모르겠지만 output path 를 실제 working path 로 지정해야 하는 것 같네요.  

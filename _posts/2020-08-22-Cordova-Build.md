@@ -10,8 +10,9 @@ excerpt: Smooth Damping Math
 
 Svelte 와 Pixi.js 로 작업한 심플한 게임을 Cordova 를 이용하여 iOS/Android Build 로 만들어 본 과정을 정리하였습니다.
 
-- content
-  {:toc}
+<!-- prettier-ignore -->
+* content
+{:toc}
 
 ## 1. Get Started
 
