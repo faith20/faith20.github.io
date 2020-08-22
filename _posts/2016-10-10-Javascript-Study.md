@@ -1,8 +1,8 @@
 ---
-title: 'JavaScript Study'
+title: JavaScript Study
 categories: JavaScript
 tags: Web Dev
-excerpt:
+excerpt: JavaScript Study
 ---
 
 <!-- prettier-ignore -->

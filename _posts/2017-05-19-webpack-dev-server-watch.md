@@ -1,8 +1,8 @@
 ---
-title: 'webpack-dev-server watch'
+title: webpack-dev-server watch
 categories: JavaScript
 tags: Web Dev
-excerpt:
+excerpt: webpack-dev-server watch
 ---
 
 <!-- prettier-ignore -->

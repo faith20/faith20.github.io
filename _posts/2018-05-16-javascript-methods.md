@@ -2,7 +2,7 @@
 title: JavaScript Methods
 categories: JavaScript
 tags: Web Dev
-excerpt:
+excerpt: JavaScript Methods
 ---
 
 <!-- prettier-ignore -->

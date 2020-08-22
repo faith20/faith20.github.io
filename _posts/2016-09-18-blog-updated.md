@@ -1,8 +1,8 @@
 ---
-title: 'Blog Updated'
+title: Blog Updated
 categories: Blog
 tags: Blog
-excerpt:
+excerpt: Blog Updated
 ---
 
 <!-- prettier-ignore -->
