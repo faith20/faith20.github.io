@@ -4,12 +4,12 @@ categories: JavaScript
 tags: Web Dev
 ---
 
-작업하던 코드를 TypeScript로 변환 하면서  
-Gulp를 쓰지 않고 Webpack Plugin만 사용하는 것으로 구조를 변경했습니다.
-
 <!-- prettier-ignore -->
 * content
 {:toc}
+
+작업하던 코드를 TypeScript로 변환 하면서  
+Gulp를 쓰지 않고 Webpack Plugin만 사용하는 것으로 구조를 변경했습니다.
 
 ## `TypeScript` & `Webpack`
 

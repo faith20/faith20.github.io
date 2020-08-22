@@ -3,16 +3,15 @@ title: Cordova Build Work Process With Svelte & Pixi.js
 categories: Game
 tags: Game Dev
 published: true
-excerpt: Smooth Damping Math
 ---
-
-# Cordova Build 작업 과정 정리
-
-Svelte 와 Pixi.js 로 작업한 심플한 게임을 Cordova 를 이용하여 iOS/Android Build 로 만들어 본 과정을 정리하였습니다.
 
 <!-- prettier-ignore -->
 * content
 {:toc}
+
+## Cordova Build 작업 과정 정리
+
+Svelte 와 Pixi.js 로 작업한 심플한 게임을 Cordova 를 이용하여 iOS/Android Build 로 만들어 본 과정을 정리하였습니다.
 
 ## 1. Get Started
 

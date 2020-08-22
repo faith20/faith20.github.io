@@ -4,15 +4,15 @@ categories: JavaScript
 tags: Web Dev
 ---
 
+<!-- prettier-ignore -->
+* content
+{:toc}
+
 올해 초 CandyWar
 [`Android`](https://play.google.com/store/apps/details?id=com.htngames.candywar)
 [`iOS`](https://itunes.apple.com/kr/app/candywar/id1091865831?mt=8)
 개발을 하면서  
 Node.js 때문에 급하게 공부했던 자바스크립트를 한번 정리해 보려고 합니다.
-
-<!-- prettier-ignore -->
-* content
-{:toc}
 
 ### Node.js
 
