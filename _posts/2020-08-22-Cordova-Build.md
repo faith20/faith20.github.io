@@ -42,7 +42,7 @@ cordova platform update ios --save
 
 ## 2. Requirements
 
-### android
+### Android
 
 - Android Studio
 - Android SDK - Android Studio 설치 및 SDK Path 설정
@@ -50,7 +50,7 @@ cordova platform update ios --save
 - Gradle - 별도 설치하거나 Android Studio 설치버전 사용
 - JAVA_HOME, ANDROID_HOME, ANDROID_SDK_ROOT 변수 설정
 
-### ios
+### iOS
 
 - Xcode
 
